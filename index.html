@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>College Annual Fest</title>
+  <style>
+    body{font-family:system-ui,Arial,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0}
+    th,td{border:1px solid #ccc;padding:.6rem;text-align:left}
+    figure{margin:0}
+    img{max-width:100%;height:auto;border:1px solid #ddd;border-radius:8px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+    header,footer{margin:1.5rem 0}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>College Annual Fest</h1>
+  </header>
+
+  <!-- ✅ Schedule Section -->
+  <section id="schedule">
+    <h2>Event Schedule</h2>
+    <table>
+      <thead><tr><th>Event</th><th>Date</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr><td>Coding Contest</td><td>2025-09-10</td><td>10:00–13:00</td></tr>
+        <tr><td>Tech Talk</td><td>2025-09-10</td><td>14:00–15:30</td></tr>
+        <tr><td>Cultural Night</td><td>2025-09-11</td><td>18:00–21:00</td></tr>
+        <tr><td>Robotics Demo</td><td>2025-09-12</td><td>11:00–12:30</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ✅ Gallery Section -->
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <figure>
+        <img src="https://via.placeholder.com/300x200?text=Coding+Contest" alt="Coding Contest">
+        <figcaption>Coding Contest — Winners</figcaption>
+      </figure>
+      <figure>
+        <img src="https://via.placeholder.com/300x200?text=Cultural+Night" alt="Cultural Night">
+        <figcaption>Cultural Night — Performance</figcaption>
+      </figure>
+      <figure>
+        <img src="https://via.placeholder.com/300x200?text=Robotics+Demo" alt="Robotics Demo">
+        <figcaption>Robotics Demo — Showcase</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <footer><small>© College Fest</small></footer>
+</body>
+</html>
